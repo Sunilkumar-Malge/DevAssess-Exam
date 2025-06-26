@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/KastroVKiran/devops-exam-app.git', 
+                git url: 'https://github.com/Sunilkumar-Malge/DevAssess-Exam.git', 
                     branch: 'master'
             }
         }
@@ -98,13 +98,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "kastrov/devopsexamapp:latest"
+        DOCKER_IMAGE = "sunilm45/devassess:latest"
     }
 
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/KastroVKiran/devops-exam-app.git', 
+                git url: 'https://github.com/Sunilkumar-Malge/DevAssess-Exam.git', 
                     branch: 'master'
             }
         }
