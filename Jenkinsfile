@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sunilm45/devassess:latest"
+        DOCKER_IMAGE = "sunilm45/dev-ops-assessment:latest"
     }
 
     stages {
