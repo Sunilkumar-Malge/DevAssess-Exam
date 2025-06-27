@@ -98,13 +98,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sunilm45/devassess:latest"
+        DOCKER_IMAGE = "sunilm45/dev-ops-assessment:latest"
     }
 
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/Sunilkumar-Malge/DevAssess-Exam.git', 
+                git url: 'https://github.com/Sunilkumar-Malge/DevOps-Assessment.git 
                     branch: 'master'
             }
         }
