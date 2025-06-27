@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/Sunilkumar-Malge/DevAssess-Exam.git', 
+                git url: 'https://github.com/Sunilkumar-Malge/DevOps-Assessment.git', 
                     branch: 'master'
             }
         }
